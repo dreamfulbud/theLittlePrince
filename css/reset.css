@@ -1,0 +1,137 @@
+/* Reset CSS*/
+html,
+body,
+div,
+span,
+a,
+img,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+p,
+address,
+pre,
+cite,
+iframe,
+form,
+fieldset,
+input,
+textarea,
+select,
+label,
+table,
+caption,
+th,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+fieldset,
+img,
+abbr,
+acronym {
+  border: 0 none;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+}
+
+table caption {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+}
+
+legend {
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+address,
+caption,
+cite {
+  font-weight: normal;
+  font-style: normal;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: """";
+}
+
+hr {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: middle;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
